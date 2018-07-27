@@ -1,5 +1,6 @@
 <?php
 
+$data['data'] = [];
 $data['data'][] = [
     "id" => "header-container",
     "template" => "col",

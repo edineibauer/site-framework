@@ -1,9 +1,11 @@
 <?php
 
+define("DEVHOME", HOME . (DOMINIO === "site-framework" ? "" : VENDOR . "site-framework/"));
+
 $data['data'] = [
     "header-container" => [],
     "parallax" => [
-        "style" => ["background-image" => "url('" . HOME . "assets/img/bb.png')"]
+        "style" => ["background-image" => "url('" . DEVHOME . "assets/img/bb.png')"]
     ],
     "header-h1" => [
         "text" => "Framework de Auto Nível com Base em Metadados"
@@ -16,12 +18,12 @@ $data['data'] = [
     ],
     "sub-img" => [
         "attr" => [
-            "src" => HOME . "assets/img/brain.png"
+            "src" => DEVHOME . "assets/img/brain.png"
         ]
     ],
     "tec-img" => [
         "attr" => [
-            "src" => HOME . "assets/img/coffe.png"
+            "src" => DEVHOME . "assets/img/coffe.png"
         ]
     ],
     "tec-header" => [
@@ -32,7 +34,7 @@ $data['data'] = [
     ],
     "mvc-img" => [
         "attr" => [
-            "src" => HOME . "assets/img/mvc.png"
+            "src" => DEVHOME . "assets/img/mvc.png"
         ]
     ],
     "mvc-header" => [
@@ -43,7 +45,7 @@ $data['data'] = [
     ],
     "footer-img" => [
         "attr" => [
-            "src" => HOME . "assets/img/edinei.jpg"
+            "src" => DEVHOME . "assets/img/edinei.jpg"
         ]
     ],
     "footer-img-title" => [
